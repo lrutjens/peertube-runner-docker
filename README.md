@@ -16,3 +16,6 @@ Name is set to the container ID when run standalone, and the node name when run 
    ```bash
    docker run -e URL=http://127.0.0.1:9000 -e TOKEN=ptrrt-**** peertube-runner
    ```
+## Note
+
+This container is meant to be a basic runner, so there is no encryption or captioning
